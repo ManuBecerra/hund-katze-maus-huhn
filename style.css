@@ -8,7 +8,7 @@ html, body {
 }
 
 .wrapper{
-	background: white;
+	background: grey;
 	width: 900px;
 	margin: 2rem auto;
 }
@@ -29,4 +29,54 @@ img{
 
 .animals{
 	margin: 0 10px;
+	position: relative;
+}
+
+p{
+	position: absolute;
+	background: white;
+	padding: 5px;
+}
+
+#hund{
+	bottom: 0px;
+	left:0px;
+	z-index:3;
+}
+
+#katze{
+	bottom: 0px;
+	right:0px;
+	z-index:3;
+}
+
+#maus{
+	top: 0px;
+	right:0px;
+}
+
+#huhn{
+	top: 0px;
+	left:0px;
+}
+
+span{
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	z-index: 2;
+}
+
+
+#rund1{
+	bottom: 0;
+	left: 0;
+}
+
+#rund2{
+	bottom: 0;
+	right: 0;
 }
